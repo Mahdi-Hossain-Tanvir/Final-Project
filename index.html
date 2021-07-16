@@ -7,12 +7,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Enter your description here" />
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
-   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nivo-slider.css" />
   <title>Leading University- ..a promise to lead</title>
 </head>
 
@@ -22,21 +30,19 @@
       <div class="container d-flex flex-wrap justify-content-center">
         <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none text-white">
           <img class="img-fluid logo" src="images/logo-white.png" alt="">
-          <span class="fs-4">Leading University</span>
+          <span class="fs-2 fw-400">Leading University</span>
           <small class="position">..A promise to lead</small>
         </a>
       </div>
     </header>
-    
   </div>
-
   <div class="bg-color">
     <nav class="navbar navbar-expand-md" aria-label="Fourth navbar example">
       <div class="container">
         <a class="navbar-brand d-sm-block d-md-none" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
           aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars" style="color:#fff; font-size:28px; margin: 10px;"></i>
+          <i class="fas fa-bars transition" style="color:#fff; font-size:28px; margin: 10px;"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample04">
@@ -84,147 +90,367 @@
       </div>
     </nav>
   </div>
-  <!-- Carousel Slider -->
-  <section id="showcase" class="bg-dark">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
-        <li data-slide-to="1" data-target="#myCarousel"></li>
-        <li data-slide-to="2" data-target="#myCarousel"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item carousel-img-1 active">
-          <div class="container">
-            <div class="carousel-caption mb-5 pb-5">
-              <h2 class="display-4">Heading One</h2>
-              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-              <a href="#" class="btn btn-danger">Learn More</a>
-            </div>
+  <main>
+    <section>
+      <div class="bg-marq">
+        <marquee class="p-2" width="100%" direction="left" loop="999999">সিলেটের প্রথম বেসরকারি বিশ্ববিদ্যালয় লিডিং
+          ইউনিভার্সিটির নবীন শিক্ষকদের জন‍্য প্রশিক্ষণ কর্মশালা অনুষ্ঠিত হয়েছে। সোমবার (১২ জুলাই ২১২১) সন্ধ্যায় লিডিং
+          ইউনিভার্সিটির ইনস্টিটিউশনাল কোয়ালিটি এ্যাসিউরেন্স সেল (আই কিউ এ সি) এর উদ্যোগে চার দিনব‍্যাপী অনলাইন
+          প্রশিক্ষণের</marquee>
+      </div>
+      <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+            <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt=""
+              title="This is an example of a caption This is an example of a caption Lorem ipsum dolor, sit amet consectetur adipisicing elit." />
+            <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt=""
+                title="This is an example of a caption This is an example of a caption Lorem ipsum dolor, sit amet consectetur adipisicing elit." /></a>
+            <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft"
+              title="This is an example of a caption This is an example of a caption Lorem ipsum dolor, sit amet consectetur adipisicing elit." />
+            <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt=""
+              title="This is an example of a caption Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ut excepturi totam culpa vero illum officia! Nesciunt architecto perferendis debitis!" />
           </div>
+          <!-- <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.  -->
+
         </div>
-        <div class="carousel-item carousel-img-2">
-          <div class="container">
-            <div class="carousel-caption mb-5 pb-5 text-right">
-              <h2 class="display-4">Heading Two</h2>
-              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-              <a href="#" class="btn btn-success">Learn More</a>
+
+      </div>
+
+      </div>
+    </section>
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="col-md-6 card-hover float-lg-start p-2">
+              <div class="card w-100 shadow p-3 mb-1 bg-body rounded">
+                <img src="images/jahedddd.jpg"
+                  class="card-img-top img-fluid img-thumbnail radiousa position-absolute top-0 start-50 translate-middle"
+                  alt="Jahed">
+                <div class="card-body">
+                  <h5 class="card-title text-center mt-5 pt-5">Prof. dr. Md Jahed</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci ex quibusdam
+                    magni reiciendis. Mollitia earum distinctio architecto facilis tempora, error animi, assumenda
+                    maxime, dolore consequatur quas quae repellat cupiditate voluptatem atque a cumque reiciendis eaque
+                    sit dignissimos. Ipsam, at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veniam
+                    modi fugit aspernatur tenetur. Voluptatum expedita architecto asperiores debitis! Quod, sunt a nam
+                    sint quis iste amet officiis illo ipsa? </p>
+                  <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+              </div>
             </div>
+            <div class="col-md-6 card-hover float-lg-start p-2">
+              <div class="card w-100 shadow p-3 mb-1 bg-body rounded">
+                <img src="images/jahedddd.jpg"
+                  class="card-img-top img-fluid img-thumbnail radiousa position-absolute top-0 start-50 translate-middle"
+                  alt="Jahed">
+                <div class="card-body">
+                  <h5 class="card-title text-center mt-5 pt-5">Prof. dr. Md Jahed</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, temporibus
+                    minus! Quisquam rerum, ea et beatae quasi consectetur dolores adipisci animi porro eius distinctio
+                    laborum vero culpa illum tempora. Nam laborum est exercitationem, enim minus, quas esse modi error
+                    cumque magnam dignissimos deserunt asperiores minima officia labore animi blanditiis assumenda?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, atque amet! Blanditiis porro animi
+                    voluptate iste adipisci repellendus .</p>
+                  <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
           </div>
-        </div>
-        <div class="carousel-item carousel-img-3">
-          <div class="container">
-            <div class="carousel-caption text-left text-light mb-5 pb-5">
-              <h2 class="display-4">Heading Three</h2>
-              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-              <a href="#" class="btn btn-outline-light">Learn More</a>
+          <div class="col-lg-4 mt-1 col-md-12">
+            <div class="card shadow p-1 mb-5 bg-body rounded">
+              <div class="p-2 card-body bg-color text-center text-white">
+                <h1 class="card-title">Admission Going On Summer-2021</h1>
+              </div>
+
+            </div>
+
+            <div class="mb-4 card shadow">
+              <div class="card-body text-center">
+                <h3 class="card-title">Forms and Downloads</h3>
+                <a href="#">Click Here</a>
+              </div>
+            </div>
+
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <div class="card-body text-center">
+                <h3 class="card-title">Academic Calendar</h3>
+                <a href="#">Click Here</a>
+              </div>
+
+            </div>
+
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <div class="card-body">
+                <h3 class="card-title text-center">Notice Board</h3>
+                <div class="row mb-2">
+                  <div class="col-2 mt-1">
+                    <h6>11 July</h6>
+                  </div>
+                  <div class="col-10 notice-a">
+                    <a class="text-decoration-none text-dark " href="#">Regarding Course Registration for the
+                      Summer-2021 (Dept. of Arch, Civil, THM)</a>
+                  </div>
+                </div>
+
+                <div class="row mb-2">
+                  <div class="col-2 mt-1">
+                    <h6>11 July</h6>
+                  </div>
+                  <div class="col-10 notice-a">
+                    <a class="text-decoration-none text-dark" href="#">Regarding Course Registration for the Summer-2021
+                      (Dept. of Arch, Civil, THM)</a>
+                  </div>
+                </div>
+
+                <div class="row mb-2">
+                  <div class="col-2 mt-1">
+                    <h6>11 July</h6>
+                  </div>
+                  <div class="col-10 notice-a">
+                    <a class="text-decoration-none text-dark" href="#">Regarding Course Registration for the Summer-2021
+                      (Dept. of Arch, Civil, THM)</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <a href="#myCarousel" class="carousel-control-prev pb-5" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a href="#myCarousel" class="carousel-control-next pb-5" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
-
-
-  <main class="container-fluid">
-    <div class="row">
-    <div class="col-lg-8">
-      <div class="card mt-3 mb-3 col-12">
-        <div class="row g-0">
-          <div class="col-md-4 col-sm-12">
-            <img class = "sir-img" src="images/tanvir.png" class="img-fluid img-thumbnail" alt="...">
+    </section>
+    <section>
+      <div class="container">
+        <h2>Latest News</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card w-100">
+              <div class="card-body">
+                <h5 class="card-title">লিডিং ইউনিভার্সিটির নবীন শিক্ষকদের জন‍্য প্রশিক্ষণ কর্মশালা উদ্বোধন</h5>
+                <p class="card-text">সিলেটের প্রথম বেসরকারি বিশ্ববিদ্যালয় লিডিং ইউনিভার্সিটির নবীন শিক্ষকদের জন‍্য
+                  প্রশিক্ষণ কর্মশালা অনুষ্ঠিত হয়েছে। সোমবার (১২ জুলাই ২১২১) সন্ধ্যায় লিডিং ইউনিভার্সিটির ইনস্টিটিউশনাল
+                  কোয়ালিটি এ্যাসিউরেন্স সেল (আই কিউ এ সি) এর উদ্যোগে চার দিনব‍্যাপী অনলাইন প্রশিক্ষণের ” Inaugural
+                  Session and Technical Sesson (Module-</p>
+                <a href="#" class="btn bg-warning text-dark">Read More...</a>
+                <hr>
+                <div class="row">
+                  <div class="col-md-4 mt-2">
+                    <img src="images/jahedddd.jpg" class="card-img-top img-fluid img-thumbnail" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <h2 class="mt-2">লিডিং ইউনিভার্সিটিতে বাংলাদেশে টেকসই উন্নয়ন বিষয়ক সেমিনার অনুষ্ঠিত</h2>
+                    <p class="card-text">সিলেটের প্রথম বেসরকারি বিশ্ববিদ্যালয় লিডিং ইউনিভার্সিটির নবীন শিক্ষকদের জন‍্য
+                      প্রশিক্ষণ কর্মশালা অনুষ্ঠিত হয়েছে। সোমবার (১২ জুলাই ২১২১) সন্ধ্যায় লিডিং ইউনিভার্সিটির
+                      ইনস্টিটিউশনাল কোয়ালিটি এ্যাসিউরেন্স সেল (আই কিউ এ সি) এর উদ্যোগে চার দিনব‍্যাপী অনলাইন প্রশিক্ষণের
+                      ” Inaugural Session and Technical Sesson (Module-</p>
+                    <a href="#" class="btn bg-warning text-dark">Read More...</a>
+                    <hr>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-md-4 mt-2">
+                    <img src="images/jahedddd.jpg" class="card-img-top img-fluid img-thumbnail" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <h2 class="mt-2">লিডিং ইউনিভার্সিটিতে বাংলাদেশে টেকসই উন্নয়ন বিষয়ক সেমিনার অনুষ্ঠিত</h2>
+                    <p class="card-text">সিলেটের প্রথম বেসরকারি বিশ্ববিদ্যালয় লিডিং ইউনিভার্সিটির নবীন শিক্ষকদের জন‍্য
+                      প্রশিক্ষণ কর্মশালা অনুষ্ঠিত হয়েছে। সোমবার (১২ জুলাই ২১২১) সন্ধ্যায় লিডিং ইউনিভার্সিটির
+                      ইনস্টিটিউশনাল কোয়ালিটি এ্যাসিউরেন্স সেল (আই কিউ এ সি) এর উদ্যোগে চার দিনব‍্যাপী অনলাইন প্রশিক্ষণের
+                      ” Inaugural Session and Technical Sesson (Module-</p>
+                    <a href="#" class="btn bg-warning text-dark">Read More...</a>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-8 col-sm-12">
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section>
+      <div class="container mt-5 mb-5">
+        <h2>Up Coming Event</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card w-100  shadow p-1 mb-5 bg-body rounded">
+              <img src="images/jahedddd.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title bg-warning d-flex w-50 p-2 position-absolute top-50 start-0">Card title</h5>
+                <a href="#" class="btn btn">IDEA HACK-2021</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100  shadow p-1 mb-5 bg-body rounded">
+              <img src="images/jahedddd.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title bg-warning d-flex w-50 p-2 position-absolute top-50 start-0">Card title</h5>
+                <a href="#" class="btn btn">IDEA HACK-2021</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100  shadow p-1 mb-5 bg-body rounded">
+              <img src="images/jahedddd.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title bg-warning d-flex w-50 p-2 position-absolute top-50 start-0">Card title</h5>
+                <a href="#" class="btn btn">IDEA HACK-2021</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100  shadow p-1 mb-5 bg-body rounded">
+              <img src="images/jahedddd.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title bg-warning d-flex w-50 p-2 position-absolute top-50 start-0">Card title</h5>
+                <a href="#" class="btn btn">IDEA HACK-2021</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100  shadow p-1 mb-5 bg-body rounded">
+              <img src="images/jahedddd.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title bg-warning d-flex w-50 p-2 position-absolute top-50 start-0">Card title</h5>
+                <a href="#" class="btn btn">IDEA HACK-2021</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100  shadow p-1 mb-5 bg-body rounded">
+              <img src="images/jahedddd.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title bg-warning d-flex w-50 p-2 position-absolute top-50 start-0">Card title</h5>
+                <a href="#" class="btn btn">IDEA HACK-2021</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Upcoming Events Ends Here -->
+
+
+
+    <!-- Our Facilitise Starts Here -->
+    <!-- Home Icon -->
+    <section id="home-icon" class="py-5 text-center">
+      <div class="container">
+        <h1 class="text-c-primary text-start mb-2">Our Campus Facilities</h1>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card shadow m-2">
+              <div class="card-body">
+                <i class="fas fa-wifi"></i>
+                <h3 class="my-2 text-c-primary">Free Wi-Fi Access</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow m-2">
+              <div class="card-body">
+                <i class="fas fa-flask"></i>
+                <h3 class="my-2 text-c-primary">Highly Equipped Labs</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow m-2">
+              <div class="card-body">
+                <i class="fas fa-users"></i>
+                <h3 class="my-2 text-c-primary">Extra Caricular Activities</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card shadow m-2">
+              <div class="card-body">
+                <i class="fas fa-book"></i>
+                <h3 class="my-2 text-c-primary">Rich Library</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow m-2">
+              <div class="card-body">
+                <i class="fas fa-building"></i>
+                <h3 class="my-2 text-c-primary">Ac Class Rooms</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow m-2">
+              <div class="card-body">
+                <i class="far fa-money-bill-alt"></i>
+                <h3 class="my-2 text-c-primary">Up to 75% Waiver</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Get Started -->
+
+    <section class="container">
+        <div class="row justify-content-center">
+          <h1 class="text-center text-c-primary mb-2">More About Leading University</h1>
+          <div class="card col-lg-8 mb-5 border-3">
             <div class="card-body">
-              <h5 class="card-title">Mahdi Hossain Tanvir</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <iframe class="embed-responsive-item" style="width: 100%;height:30vw;"
+                src="https://www.youtube.com/embed/e0_PKMn4Zng" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="home-getstarted" class="text-center text-light mb-5">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col">
+              <h2>Are You Ready To Get Started?</h2>
+              <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem
+                laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium
+                quod dicta, a quaerat vel, obcaecati!</p>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-    <div class="card mt-3 mb-3 col-12">
-      <div class="row g-0">
-        <div class="col-md-4 col-sm-12">
-          <img class = "sir-img" src="images/tanvir.png" class="img-fluid img-thumbnail" alt="...">
-        </div>
-        <div class="col-md-8 col-sm-12">
+    <section class="container">
+      <div class="row justify-content-center mt-5">
+        <h1 class="text-c-primary mb-2">Our Campus Location</h1>
+        <div class="card col-12 mb-5 border-3">
           <div class="card-body">
-            <h5 class="card-title">Mahdi Hossain Tanvir</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-      </div>
-
-    <div class="col-lg-4 mt-3 col-md-12">
-      <div class=" mb-4 card shadow"> 
-        <div class="p-3 card-body bg-color text-center text-white">
-          <h1 class="card-title">Admission Going On Summer-2021</h1>
-        </div>
-        
-      </div>
-
-      <div class=" mb-4 card shadow"> 
-        <div class="p-3 card-body text-center">
-          <h2 class="card-title">Forms and Downloads</h2>
-          <a href="#">Click Here</a>
-        </div>   
-      </div>
-
-      <div class=" mb-4 card shadow"> 
-        <div class="p-3 card-body text-center">
-          <h2 class="card-title">Academic Calendar</h2>
-          <a href="#">Click Here</a>
-        </div>
-        
-      </div>
-
-      <div class=" mb-4 card shadow"> 
-        <div class="p-3 card-body">
-          <h2 class="card-title text-center">Notice Board</h2>
-          <div class="row mb-2">
-            <div class="col-2 mt-1">
-                <h6>11 July</h6>
-            </div>
-            <div class="col-10 notice-a">
-              <a class="text-decoration-none text-dark " href="#">Regarding Course Registration for the Summer-2021 (Dept. of Arch, Civil, THM)</a>
-            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.8322338660364!2d91.80291421498522!3d24.869578851016843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751015addbec3b7%3A0x9e87b7be58b5f67e!2sLeading%20University!5e0!3m2!1sen!2sbd!4v1626438111440!5m2!1sen!2sbd"
+              width="100%" height="450" style="border:5;" allowfullscreen="" loading="lazy"></iframe>
           </div>
 
-          <div class="row mb-2">
-            <div class="col-2 mt-1">
-                <h6>11 July</h6>
-            </div>
-            <div class="col-10 notice-a">
-              <a class="text-decoration-none text-dark" href="#">Regarding Course Registration for the Summer-2021 (Dept. of Arch, Civil, THM)</a>
-            </div>
-          </div>
-
-          <div class="row mb-2">
-            <div class="col-2 mt-1">
-                <h6>11 July</h6>
-            </div>
-            <div class="col-10 notice-a">
-              <a class="text-decoration-none text-dark" href="#">Regarding Course Registration for the Summer-2021 (Dept. of Arch, Civil, THM)</a>
-            </div>
-          </div>
         </div>
-        
       </div>
-    
-
-  </div>
+    </section>
   </main>
-  
+
+
+
+  <!-- Footer Start Here -->
   <footer class="text-center text-lg-start bg-color text-white">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -232,30 +458,37 @@
       <div class="me-5 d-none d-lg-block">
         <span>Get connected with us on social networks:</span>
       </div>
-      <!-- Left -->
 
       <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
+      <div class="">
+        <ul class="social-nav list-unstyled d-flex flex-row">
+          <li>
+            <a class="text-decoration-none px-2" href="#">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-decoration-none px-2" href="#">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-decoration-none px-2" href="#">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-decoration-none px-2" href="#">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-decoration-none px-2" href="#">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-      <!-- Right -->
     </section>
     <!-- Section: Social media -->
 
@@ -349,14 +582,18 @@
   </footer>
   <!-- Footer -->
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/uikit.min.js"></script>
-  <script src="js/uikit-icons.min.js"></script>
-  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+  <script ">
+    $(window).load(function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
+
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"> </script> <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.8322338660364!2d91.80291421498522!3d24.869578851016843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751015addbec3b7%3A0x9e87b7be58b5f67e!2sLeading%20University!5e0!3m2!1sen!2sbd!4v1626438111440!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->

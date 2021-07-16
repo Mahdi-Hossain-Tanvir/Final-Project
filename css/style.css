@@ -1,15 +1,29 @@
-.logo{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo {
     width: 100px;
     height: 100px;
     margin-top: 10px;
 }
-.bg-color{
-    background-color: #455A64 ;
+
+.bg-color {
+    background-color: #455A64;
 }
+
 .border-bottom {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.253)!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253) !important;
 }
-.position{
+
+.position {
     position: relative;
     top: 24%;
 }
@@ -18,43 +32,53 @@
     padding: 0 0;
 }
 
-.carousel-item {
-    height: 450px; }
-  
-  .carousel-img-1 {
-    background: url("../images/image1.jpeg");
-    background-size: cover; }
-  
-  .carousel-img-2 {
-    background: url("../images/image2.jpeg");
-    background-size: cover; }
-  
-  .carousel-img-3 {
-    background: url("../images/image3.jpeg");
-    background-size: cover; }
+.radiousa {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
 
+.social-nav li a {
+    color: white;
+}
 
-    .sir-img{
-      width: 13rem; 
-      height: 13rem; 
-      border-radius: 50%;
-      display: inline-block;
-      margin: 12% 8%;
-      
+.social-nav li a:hover {
+    color: #c3d136;
+}
 
-    }
-    @media (max-width:768px) {
-        .sir-img{
-          width:100%;
-          height: 100%;
-          margin: 0 auto;
-          border-radius: 1%;
-        }
-        .card-title{
-          text-align: center;
-        }
-    }
-    .notice-a:hover{
-      text-decoration: underline;
-    }
+.bg-marq {
+    background-color: #90a7b2;
 
+}
+
+.card-hover:hover {
+    background-color: #455A64;
+}
+
+#home-icon .fas,
+#home-icon .far {
+    font-size: 50px;
+    color: #c3d136;
+}
+
+.text-c-primary {
+    color: #226f92;
+}
+
+#home-getstarted {
+    position: relative;
+    background: url("../images/leadingpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+#home-getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
